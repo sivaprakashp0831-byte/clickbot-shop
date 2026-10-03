@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Deterministic rule-based e-commerce chatbot">
+    <title>RuleCart — Deterministic E-Commerce Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <main class="app-shell">
+        <section class="chat-app" aria-label="E-commerce chatbot">
+            <header class="chat-header">
+                <div>
+                    <p class="eyebrow">RULE-BASED SHOPPING</p>
+                    <h1>RuleCart</h1>
+                    <p class="header-subtitle">Fast, predictable shopping without AI or NLP.</p>
+                </div>
+                <span id="connection-status" class="status-pill">Connecting…</span>
+            </header>
+
+            <section id="chat-history" class="chat-history" aria-live="polite" aria-label="Chat history">
+                <div id="chat-end-anchor" aria-hidden="true"></div>
+            </section>
+
+            <section class="action-bar" aria-label="Chat actions">
+                <div id="quick-replies" class="quick-replies" role="group" aria-label="Quick replies"></div>
+
+                <form id="text-input-container" class="text-input-container input-hidden" autocomplete="off">
+                    <label id="input-label" class="sr-only" for="text-input">Enter value</label>
+                    <input id="text-input" type="text" inputmode="text" placeholder="">
+                    <button id="text-submit" class="btn-primary" type="submit">Send</button>
+                </form>
+            </section>
+
+            <nav class="bottom-bar" aria-label="Persistent menu">
+                <button id="menu-trigger" class="menu-trigger" type="button" aria-label="Return to Main Menu" title="Main Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <span class="bottom-hint">Main Menu</span>
+                <span id="cart-indicator" class="cart-indicator">Cart: 0</span>
+            </nav>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='js/chat.js') }}" defer></script>
+</body>
+</html>

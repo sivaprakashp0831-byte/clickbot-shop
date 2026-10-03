@@ -1,0 +1,110 @@
+[
+  {
+    "timestamp": "2026-10-03T15:09:50.617918+00:00",
+    "current_state": "main_menu",
+    "choice_clicked": "checkout",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:10:04.831465+00:00",
+    "current_state": "checkout",
+    "choice_clicked": "checkout_start",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:10:44.151941+00:00",
+    "current_state": "checkout_email",
+    "choice_clicked": "email_submit",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:10:59.764539+00:00",
+    "current_state": "checkout_phone",
+    "choice_clicked": "phone_submit",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:11:08.509566+00:00",
+    "current_state": "checkout_confirm",
+    "choice_clicked": "place_order",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:12:23.077740+00:00",
+    "current_state": "order_created",
+    "choice_clicked": "created_track",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:12:27.397461+00:00",
+    "current_state": "order_status",
+    "choice_clicked": "status_main",
+    "drop_off_flag": true
+  },
+  {
+    "timestamp": "2026-10-03T15:13:44.460844+00:00",
+    "current_state": "main_menu",
+    "choice_clicked": "browse_categories",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:13:50.049578+00:00",
+    "current_state": "categories",
+    "choice_clicked": "category_electronics",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:14:15.652833+00:00",
+    "current_state": "electronics",
+    "choice_clicked": "product_phone_x1",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:14:28.387684+00:00",
+    "current_state": "product_phone_x1",
+    "choice_clicked": "buy_phone_x1",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:15:19.166980+00:00",
+    "current_state": "checkout",
+    "choice_clicked": "checkout_start",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:18:55.305592+00:00",
+    "current_state": "checkout_email",
+    "choice_clicked": "email_submit",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:19:23.335560+00:00",
+    "current_state": "checkout_phone",
+    "choice_clicked": "phone_submit",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:19:41.737995+00:00",
+    "current_state": "checkout_confirm",
+    "choice_clicked": "place_order",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:19:44.571678+00:00",
+    "current_state": "order_created",
+    "choice_clicked": "created_track",
+    "drop_off_flag": false
+  },
+  {
+    "timestamp": "2026-10-03T15:19:53.080293+00:00",
+    "current_state": "order_status",
+    "choice_clicked": "status_main",
+    "drop_off_flag": true
+  },
+  {
+    "timestamp": "2026-10-03T15:19:59.600238+00:00",
+    "current_state": "main_menu",
+    "choice_clicked": "view_cart",
+    "drop_off_flag": false
+  }
+]
